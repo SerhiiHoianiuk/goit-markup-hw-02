@@ -1,0 +1,29 @@
+body {
+    background-color: #FFFFFF;
+    color:#757575 ;
+}
+.list {
+    list-style: none;
+}
+/* site-nav */
+
+.site-nav .link {
+color:#212121 ;
+}
+.site-nav .link:hover ,
+.site-nav .link:focus {
+color: #2196F3;
+}
+.addres-header .link {
+    color: #757575;
+}
+.addres-header .link:hover ,
+.addres-header .link:focus {
+color:#2196F3;
+}
+
+/* колір основногу тексту #212121 */
+/* колір вторичного текту #757575 */
+/* фон білий #FFFFFF */
+/* сірий  #2F303A */
+/* акцент #2196F3 */
