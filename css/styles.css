@@ -2,9 +2,7 @@ body {
     background-color: #FFFFFF;
     color:#757575 ;
 }
-.list {
-    list-style: none;
-}
+
 /* site-nav */
 
 .site-nav .link {
@@ -20,6 +18,16 @@ color: #2196F3;
 .addres-header .link:hover ,
 .addres-header .link:focus {
 color:#2196F3;
+}
+.section-title {
+    color: #212121;
+}
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
 }
 
 /* колір основногу тексту #212121 */
