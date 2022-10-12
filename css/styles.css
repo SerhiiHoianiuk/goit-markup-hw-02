@@ -1,35 +1,110 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --hero-title-color: #FFFFFF;
+    --primary-bg-color: #FFFFFF;
+    --button-color: #F5F4FA;
+    --primary-button-color: #FFFFFF;
+}
+
 body {
-    background-color: #FFFFFF;
-    color:#757575 ;
+    background-color:var(--primary-bg-color) ;
+    color:var(--primary-text-color) ;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* logo */
+
+.logo:hover ,
+.logo:focus {
+    color: var(--accent-color);
 }
 
 /* site-nav */
 
 .site-nav .link {
-color:#212121 ;
+color:var(--title-text-color ) ;
 }
 .site-nav .link:hover ,
 .site-nav .link:focus {
-color: #2196F3;
+color: var(--accent-color);
 }
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* addres-header */
+
 .addres-header .link {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .addres-header .link:hover ,
 .addres-header .link:focus {
-color:#2196F3;
+color: var(--accent-color);
 }
+
+/* section */
+
 .section-title {
-    color: #212121;
+    color:var(--title-text-color);
 }
+
 /* hero */
+
 .hero {
     background-color: #2F303A;
 }
 .hero-title {
-    color: #FFFFFF;
+    color: var(--hero-title-color);
 }
 
+/* feature-list */
+
+.feature-list .title {
+    color: var(--title-text-color) ;
+}
+
+/* team-list */
+
+.team-list .title {
+    color: var(--title-text-color) ;
+}
+
+/* portfolio-list */
+
+.portfolio-list .title {
+    color: var(--title-text-color);
+}
+
+/* button */
+
+.button {
+    background-color:var(--button-color);
+    color: var(--title-text-color);
+}
+.button:hover ,
+.button:focus {
+    color: var(--accent-color);
+}
+.button.primary {
+background-color:var(--accent-color);
+color: var(--primary-button-color);
+}
+.button.secondary {
+
+}
 /* колір основногу тексту #212121 */
 /* колір вторичного текту #757575 */
 /* фон білий #FFFFFF */
