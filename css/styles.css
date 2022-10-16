@@ -215,6 +215,10 @@ color: var(--accent-color);
     text-align: center;
     letter-spacing: 0.06em;
 }
+.button.primary:hover ,
+.button.primary:focus {
+    color: var(--accent-color);
+}
 
 /* footer */
 
